@@ -1,4 +1,4 @@
-import {srcA} from "src/srcA";
-import {srcCommon} from "srcCommon/srcCommon";
+import {srcA} from "../src/srcA";
+import {srcCommon} from "../srcCommon/srcCommon";
 
 console.log(srcA, srcCommon);
