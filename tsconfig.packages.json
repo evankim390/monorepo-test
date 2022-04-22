@@ -2,9 +2,6 @@
     "files": [],
     "references": [
         {
-            "path": "./src"
-        },
-        {
             "path": "./srcCommon"
         },
         {
