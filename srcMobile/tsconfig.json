@@ -1,0 +1,24 @@
+{
+    "extends": "./../tsconfig.base.json",
+    "compilerOptions": {
+        "rootDir": "./..",
+        "outDir": "dist",
+        "jsx": "react-native",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "."
+    ],
+    "references": [
+        {
+            "path": "./../src"
+        },
+        {
+            "path": "./../srcCommon"
+        },
+    ]
+}
